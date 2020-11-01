@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+$d-blue: #1c3349;
+$d-sky: #c7e5ff;
+$d-text: #4c708f;
+
+$dm-display: "DM Serif Display", serif;
+$dm-text: "DM Serif Text", serif;
+$lobster: "Lobster", cursive;
+$poppins: "Poppins", sans-serif;
+
+@mixin flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

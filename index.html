@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d365e67236.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="1533497306694952"
+      theme_color="#112A3F">
+    </div>
+
+  <section class="initial">
+
+    <section class="initial">
+
+        <div class="ctn-left">
+            <div class="map">
+                <img src="./assets/img/az-sky-flag.png" alt="">
+            </div>
+            <div class="video">
+                <video width="50%" src="./assets/video/ha-video.mp4" autoplay muted></video>
+                <div class="unmute">
+                    <div class="blink"></div>
+                    <div class="blink2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ctn-right">
+
+            <div class="logo">
+                <div class="icon">
+                    <img src="./assets/img/rangoli.svg" alt="">
+                </div>
+                <p>Voice of Karabakh</p>
+            </div>
+
+            <h1>Coming Soon</h1>
+
+            <div class="sep-line"></div>
+
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                 voluptate velit esse cillum eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+
+            <div class="socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+
+            <div class="cta-mail">
+                <input type="email" placeholder="email@example.com" class="input-mail">
+                <button class="btn-mail">Inform Me</button>
+            </div>
+
+            <div class="scroll-ico">
+                <div class="wheel"></div>
+            </div>
+
+            
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
